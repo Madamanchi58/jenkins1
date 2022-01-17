@@ -2,5 +2,5 @@ variable env{
 default="dev"
 }
 variable name{
-default="s3"
+default="Mynewbucket"
 }
