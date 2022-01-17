@@ -7,7 +7,7 @@ default="t2.micro"
 variable ec2name{
 default="My-Ec2"
 }
-variable s3name{
+variable mybname{
   default="s3"
 }
 variable env{
