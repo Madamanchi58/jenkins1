@@ -1,6 +1,6 @@
 variable env{
 default="dev"
 }
-variable name{
+variable sname{
 default="s3"
 }
