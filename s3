@@ -1,6 +1,7 @@
 resource "aws_s3_bucket" "b" {
-  bucket = var.mybname
+  bucket = "s3"
   tags = {
     Environment = var.env
+    Name=var.mybname
   }
 }
