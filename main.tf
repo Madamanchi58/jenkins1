@@ -8,3 +8,10 @@ resource "aws_instance" "web" {
     Name=var.name
   }
 }
+resource "aws_s3_bucket" "b" {
+  bucket ="MY-NEW_BCUCKET"
+  tags = {
+    Environment = var.env
+    Name=var.bname
+  }
+}
