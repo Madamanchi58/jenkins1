@@ -4,7 +4,7 @@ default="ami-08e4e35cccc6189f4"
 variable type{
 default="t2.micro"
 }
-variable name{
+variable ename{
 default="My-Ec2"
 }
 variable region{
