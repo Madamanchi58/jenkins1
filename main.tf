@@ -9,9 +9,11 @@ resource "aws_instance" "web" {
   }
 }
 resource "aws_s3_bucket" "b" {
-  bucket ="MY-NEW_BCUCKET"
+  bucket = "my-tf-test-bucket"
+  acl    = "private"
+
   tags = {
-    Environment = var.env
-    Name=var.bname
+    Name        = "My bucket"
+    Environment = "Dev"
   }
 }
