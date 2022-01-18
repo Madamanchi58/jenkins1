@@ -1,4 +1,7 @@
-resource "aws_s3_bucket" "_a" {
+provider "aws"{
+  region="us-west-2"
+}
+resource "aws_s3_bucket" "_ab" {
   bucket =var.name
   tags = {
     Environment = var.env
