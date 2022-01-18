@@ -1,4 +1,4 @@
-variable bname{
+variable name{
   default="my_s3"
 }
 variable env{
