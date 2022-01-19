@@ -6,6 +6,6 @@ resource "aws_instance" "web" {
   ami= lookup(var.ami, var.name)
   count= 1
   tags = {
-    name = var.tag_name
+    Name = var.tag_name
   }
 }
