@@ -8,7 +8,7 @@ variable "ami" {
   }
 }
 variable "name" {
-  default = "windows"
+  default = "linux"
 }
 
 
