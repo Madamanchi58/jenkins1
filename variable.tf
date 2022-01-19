@@ -10,5 +10,8 @@ variable "ami" {
 variable "name" {
   default = "linux"
 }
+variable "tag_name"{
+  default="ec2"
+}
 
 
