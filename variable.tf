@@ -10,8 +10,8 @@ variable region{
 variable "ami"{
   type="map"
   default={
-    us-east-1="ami-08e4e35cccc6189f4"
-    us-east-2="ami-0ee498eea5a3c3f90"
+    linux="ami-08e4e35cccc6189f4"
+    windows=" ami-0d43d465e2051057f"
   }
 }
 
