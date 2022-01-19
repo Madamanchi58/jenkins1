@@ -7,7 +7,7 @@ default="linux"
 variable region{
   default="us-east-1"
 }
-variable "ami"{
+variable "map"{
   type="map"
   default={
     linux="ami-08e4e35cccc6189f4"
