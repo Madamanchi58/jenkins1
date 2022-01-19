@@ -2,7 +2,7 @@ variable type{
 default="t2.micro"
 }
 variable name{
-default="My-Ec2"
+default="linux"
 }
 variable region{
   default="us-east-1"
