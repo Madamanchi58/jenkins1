@@ -7,7 +7,7 @@ variable "ami" {
     "windows" = "ami-0d43d465e2051057f"
   }
 }
-variable "os_type" {
+variable "name" {
   default = "linux"
 }
 
